@@ -1,0 +1,16 @@
+div#bb_btn_en_pv_child {
+  /* Black image backgroound */
+ background: rgba(0, 0, 0, 0) url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABCklEQVR42mNgoCJgAmJWJMyERQ0jmhpmdAV+QPwVCd8CYkEkeZCGnWhqqtANCQTi/0D8D4inArE3FptsgLgWiL9D1dZjM+QPEB8D4mdAbI7FO3JAfB6IbwPxU2yGgLzzA4jloc4GGaSNJC8MxOeA+BoQa0LZNeiG8AGxLzRAQWExC4jNkOQlgXgJEKtA+XZQlw0RwAxNF8iAhZAmCSDOhyoE+XU3EDsjySsC8VForIEMjwZiPXRDAoD4FxDrQKPxGjSmYIAXiHdAY80WiC8AcR22dPIXmlKvI8UCMhCERv8rIH6NK7HBUiwoKnOAmA0t30QA8RR8KdYF6gIY3g1NO8gBPQ9NTfbgSw8AJPU70zS+7cQAAAAASUVORK5CYII=");
+ width: 17px;
+ height: 17px;
+ background-size: 17px 17px;
+ background-repeat: no-repeat;
+ background-position-x: 0px;
+ background-position-y: 0px;
+ background-attachment: scroll;
+ overflow: hidden;
+}
+div#bb_btn_en_pv_child:hover {
+  /* Evernote green background image */
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAABjElEQVR42mNgoBqokWcGYi4kzIKhplqeCU0NK6qCJTpBDCt0v8HxEp3nDFPUxODy9QqsDIu1j6KomavZi25IGFDiPxgv0FrKME8rjKFTGdWm2ZruDAu1uhmW6fwFq5urNRnTkOVAicXal4GK3jHM0HDB8M50dTWGJdp3wK5cqvMe05DF2sFAzf8YpmuoA9nHgey3QE3mcPlp6hJA8dtAzQ8ZpqqbAQ26DfTOBFRDJqoKM8zSiGXoVWVmmKAqAfTSGhTXTFdXAIptY5ipoQsMH0Yg7QsMM3WGIQLqFdgY6uQZUcQaFNjxa5qmIQeM1npg2LCBY2Gx9glgGAXB5WdoaAID8wI4nBoUmIBqM4DhYokexSHgKJ6lYQqORlAsTFPXgMtPVhNiWKR9DBxr09T9gJbcBcbOJOzpZInOM7ABM4CxgA5AsQaK/qU6n4D4C/bEBkux87T2ABXUMvSocMLlQeEzVzMNiNcAXfMHe4qdp+XHsFD7NRzP17oMTFRCKHlngdZGFDUzNVoGX4oAAHLMocmSO/IzAAAAAElFTkSuQmCC");
+}

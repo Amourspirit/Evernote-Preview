@@ -1,0 +1,23 @@
+// ==UserScript==
+// @name            @FULL_NAME@
+// @namespace       https://github.com/Amourspirit/@REPOSITORY_NAME@
+// @version         @BUILD_NUMBER@
+// @description     @DESCRIPTION@
+// @author          @AUTHOR@
+// @run-at          document-end
+// @match           https://www.evernote.com/Home.action*
+// @match           https://www.evernote.com/u/0/Home.action*
+// @match           https://app.yinxiang.com/Home.action*
+// @match           https://app.yinxiang.com/u/0/Home.action*
+// @noframes
+// @homepageURL     https://github.com/Amourspirit/@REPOSITORY_NAME@
+// @update          https://github.com/Amourspirit/@REPOSITORY_NAME@/raw/master/dist/@SCRIPT_NAME@.user.js
+// @downloadURL     https://github.com/Amourspirit/@REPOSITORY_NAME@/raw/master/dist/@SCRIPT_NAME@.user.js
+// @require         https://openuserjs.org/src/libs/sizzle/GM_config.min.js
+// @require         https://code.jquery.com/jquery-latest.min.js
+// @contributionURL https://bit.ly/1QIN2Cs
+// @license         @LICENSE@
+// @grant           GM_registerMenuCommand
+// @grant           GM_setValue
+// @grant           GM_getValue
+// ==/UserScript==

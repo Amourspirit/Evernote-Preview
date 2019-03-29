@@ -1,0 +1,72 @@
+{
+  "_name": "EvernotePreview",
+  "_debuglevel": 4,
+  "_debugRemoveComment": true,
+  "_fullName": "Evernote Editor Preview",
+  "_memu_opt_name": "Evernote Preview Options",
+  "_repositoryName": "Evernote-Preview",
+  "name": "evernote-edit-preview-view-userscript",
+  "version": "1.0.0",
+  "description": "Adds a preview option to Evernote Editor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amourspirit/Evernote-Preview.git"
+  },
+  "keywords": [
+    "Evernote",
+    "fullscreen",
+    "preview"
+  ],
+  "author": "Paul Moss",
+  "license": "MIT",
+  "devDependencies": {
+    "@ephox/tslint-rules": "latest",
+    "@types/depcheck": "^0.6.0",
+    "@types/jquery": "^3.3.29",
+    "awesome-typescript-loader": "latest",
+    "grunt": "latest",
+    "grunt-contrib-clean": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-htmlmin": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-if-next": "latest",
+    "grunt-remove-comments": "latest",
+    "grunt-shell": "latest",
+    "grunt-text-replace": "latest",
+    "grunt-tslint": "latest",
+    "load-grunt-tasks": "latest",
+    "rollup": "latest",
+    "rollup-plugin-commonjs": "latest",
+    "rollup-plugin-inject": "^2.2.0",
+    "rollup-plugin-node-resolve": "latest",
+    "strongly-typed-events": "latest",
+    "ts-loader": "latest",
+    "tslib": "latest",
+    "tslint": "latest",
+    "typescript": "latest"
+  },
+  "coloredRegions": {
+    "namedColors": {
+      "publicProp": "rgba(21, 233, 190, 0.2)",
+      "publicPropArrow": "rgba(21, 156, 228, 0.12)",
+      "publicGet": "rgba(21, 118, 228, 0.2)",
+      "publicFunc": "rgba(21, 233, 64, 0.15)",
+      "privateProp": "rgba(233, 21, 21, 0.12)",
+      "privateMethod": "rgba(233, 141, 21, 0.12)",
+      "privatePropArrow": "rgba(225, 228, 21, 0.12)",
+      "privateFunction": "rgba(120, 233, 21, 0.12)",
+      "constructor": "rgba(13, 206, 38, 0.25)",
+      "imports": "rgba(246, 123, 248, 0.17)",
+      "declares": "rgba(245, 65, 19, 0.12)",
+      "ref": "rgba(148, 81, 45, 0.18)",
+      "debug": "rgba(19, 36, 57, 0.29)",
+      "BUILD_REMOVE": "rgba(253, 1, 1, 0.3)"
+    }
+  }
+}
